@@ -36,9 +36,9 @@ $response = $db->read($array, $table);
 <body>
     <form method="POST">
         <p>Nome:</p>
-        <p name="name">Name: <?= $user["name"] ?></p>
+        <p name="name"><?= $user["name"] ?></p>
         <p>Email:</p>
-        <p name="email">Email: <?= $user["email"] ?></p>
+        <p name="email"><?= $user["email"] ?></p>
         <input name="id" value="<?= $user["id"] ?>" style="display: none">
         <button type="submit">Deletar</button>
         <hr>
